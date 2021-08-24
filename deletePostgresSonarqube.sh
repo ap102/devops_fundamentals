@@ -6,6 +6,8 @@ docker rm -v -f ap-nexus3
 #delete volumes
 docker volume rm postgres-data
 docker volume rm sonarqube-data
+docker volume rm sonarqube-logs
+docker volume rm sonarqube-extensions
 docker volume rm jenkins-workspace
 docker volume rm nexus3-data
 #delete subnetwork
